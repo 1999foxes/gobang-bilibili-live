@@ -220,8 +220,6 @@ def main():
 
         for event in pygame.event.get():
             if event.type == QUIT:
-                client_socket.close()
-                server_socket.close()
                 pygame.quit()
                 sys.exit()
 
